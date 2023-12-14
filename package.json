@@ -14,18 +14,17 @@
   "dependencies": {
     "axios": "^1.6.0",
     "bootstrap": "^5.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "font-awesome": "^4.7.0",
     "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
     "sequelize": "^6.35.1",
     "shortid": "^2.2.16",
-    "sweetalert2": "^11.10.1",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mysql2": "^3.6.2"
-    
+    "sweetalert2": "^11.6.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
