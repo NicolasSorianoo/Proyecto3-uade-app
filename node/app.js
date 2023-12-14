@@ -6,6 +6,7 @@ import ProductoModel from './models/ProductoModel.js';
 import routes from './routes/routes.js';
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -31,6 +32,6 @@ app.use(cors({
 app.use('/', routes);
 app.use(express.static('uploads'))
 
-app.listen(8000, () => {
+app.listen(port, () => {
     console.log('Server UP running in http://localhost:8000/');
 });
